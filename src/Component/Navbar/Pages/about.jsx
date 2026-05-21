@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="bg-black">
       <House className='absolute left-2 bottom-140.5 cursor-pointer  hover:text-blue-300' onClick={function(){
-          window.location.href = "/Home"
+          window.location.href = "/"
       }}/>
       <img className='h-40 w-110 relative left-112 top-10' src={abc}/>
       <div>

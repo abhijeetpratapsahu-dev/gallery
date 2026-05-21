@@ -27,7 +27,7 @@ const gallery = () => {
 
 
       <House className='absolute left-2 bottom-140.5 cursor-pointer hover:text-blue-300' onClick={function(){
-          window.location.href = "/Home"
+          window.location.href = "/"
       }}/>
 
       <div>

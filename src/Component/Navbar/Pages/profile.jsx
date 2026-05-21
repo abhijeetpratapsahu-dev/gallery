@@ -8,7 +8,7 @@ const Home = () => {
       <img className='h-40 w-40 rounded-full aspect-square object-cover absolute left-141 bottom-105' src={profile}></img>
 
       <House className='absolute left-2  bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
-          window.location.href = "/Home"
+          window.location.href = "/"
       }}/>
 
       <div className='h-auto w-325 absolute left-7 bottom-55'> 
