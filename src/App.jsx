@@ -9,6 +9,7 @@ import Press from './Component/Navbar/Pages/press'
 import Profile from './Component/Navbar/Pages/profile'
 import Tours from './Component/Navbar/Pages/tours'
 import Videos from './Component/Navbar/Pages/videos'
+import { Analytics } from "@vercel/analytics/next"
 
 const App = () => {
   return (
