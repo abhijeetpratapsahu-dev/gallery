@@ -9,12 +9,13 @@ import Press from './Component/Navbar/Pages/press'
 import Profile from './Component/Navbar/Pages/profile'
 import Tours from './Component/Navbar/Pages/tours'
 import Videos from './Component/Navbar/Pages/videos'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
     <div className='w-full min-h-screen bg-black text-white flex flex-col justify-start'>
-     
+      <Analytics />
+
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
