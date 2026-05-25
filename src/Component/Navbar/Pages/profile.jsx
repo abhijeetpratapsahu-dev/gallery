@@ -31,7 +31,7 @@ const Home = () => {
           जनता के प्रति उनका समर्पण और सेवा भावना उन्हें अन्य नेताओं से अलग पहचान दिलाती है।
         </h1>
       </div>
-      <div className='absolute left-4 bottom-35 border-b border-white pr-3'>
+      <div className='absolute left-4 bottom-35 pr-3'>
           <a href='https://www.facebook.com/dravinashsahu/' target="_blank"  rel="noopener noreferrer" className='hover:text-blue-900'>
           <FaFacebookF size={30} />
         </a>
