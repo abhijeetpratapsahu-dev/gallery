@@ -1,7 +1,16 @@
 import { Search } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [search, setSearch] = useState("")
+  const navigate = useNavigate()
+
+   const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      navigate(`/search?q=${search}`);
+    }
+  };
   return (
     <div>
       <nav className='p-2 border-b border-gray-300'>
@@ -17,7 +26,7 @@ const Nav = () => {
         </div>
 
         <div className="absolute left-270 top-2">
-          <input className="w-50 border-white" type="text" placeholder="SEARCH" />
+          <input className="w-50 border-white" type="search" placeholder="Search" onChange={(e) => setSearch(e.target.value)} onKeyDown={handleKeyDown}/>
           <div className='cursor-pointer absolute left-[220px] top-[2px] hover:text-red-300'>
             <Search />
           </div>
