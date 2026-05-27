@@ -14,7 +14,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
-    <div className='w-screen h-screen bg-black text-white flex flex-col justify-start'>
+    <div className='w-auto h-auto bg-black text-white flex flex-col justify-start'>
       <Analytics />
 
       <Nav />
