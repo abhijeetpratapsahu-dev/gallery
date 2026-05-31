@@ -2,7 +2,7 @@
 
 const left = () => {
   return (
-     <div className="h-auto w-[595px] bg-white text-black font-2xl font-bold font-sans p-8 leading-7 rounded-xl border-2 border-black relative left-[650px] top-[35px]">
+     <div className="h-auto w-[610px] bg-white text-black font-2xl font-bold font-sans p-8 leading-7 rounded-xl border-2 border-black relative left-[650px] top-[35px]">
       <h1 className="text-justify ">
         इंजीनियर अविनाश साहू अपना दल (एस) पार्टी के आईटी मंच के प्रदेश अध्यक्ष हैं,
         और क्षेत्र के समग्र विकास, सामाजिक न्याय और जन-कल्याण के लिए पूर्णतः समर्पित रहते हुए वह 2027 के विधानसभा चुनाव में मटेरा सीट से विधायक (Vidhayak) बनेंगे 
