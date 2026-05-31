@@ -15,14 +15,14 @@ const Nav = () => {
     <div>
       <nav className='p-2 border-b border-gray-300'>
         <div className='flex gap-8 cursor-pointer'>
-          <Link to="/about" className='font-roboto hover:text-green-600'>ABOUT ER.AVINASH SAHU</Link>
-          <Link to="/gallery" className='font-roboto hover:text-green-600'>GALLERY</Link>
-          <Link to="/tours" className='font-roboto hover:text-green-600'>TOURS</Link>
-          <Link to="/press" className='font-roboto hover:text-green-600'>PRESS</Link>
-          <Link to="/contact" className='font-roboto hover:text-green-600'>CONTACT US</Link>
-          <Link to="/videos" className='font-roboto hover:text-green-600'>VIDEOS</Link>
-          <Link to="/helping-hand" className='font-roboto hover:text-green-600'>HELPING HAND</Link>
-          <Link to="/profile" className='font-roboto hover:text-green-600'>ER.AVINASH SAHU PROFILE</Link>
+          <Link to="/about" className='font-roboto hover:text-green-600 font-bold'>ABOUT ER.AVINASH SAHU</Link>
+          <Link to="/gallery" className='font-roboto hover:text-green-600 font-bold'>GALLERY</Link>
+          <Link to="/tours" className='font-roboto hover:text-green-600 font-bold'>TOURS</Link>
+          <Link to="/press" className='font-roboto hover:text-green-600 font-bold'>PRESS</Link>
+          <Link to="/contact" className='font-roboto hover:text-green-600 font-bold'>CONTACT US</Link>
+          <Link to="/videos" className='font-roboto hover:text-green-600 font-bold'>VIDEOS</Link>
+          <Link to="/helping-hand" className='font-roboto hover:text-green-600 font-bold'>HELPING HAND</Link>
+          <Link to="/profile" className='font-roboto hover:text-green-600 font-bold'>ER.AVINASH SAHU PROFILE</Link>
         </div>
 
         <div className="absolute left-270 top-2">
