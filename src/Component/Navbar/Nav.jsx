@@ -27,7 +27,7 @@ const Nav = () => {
 
         <div className="absolute left-276 top-2">
           <input className="w-50 border-black" type="search" placeholder="Search" onChange={(e) => setSearch(e.target.value)} onKeyDown={handleKeyDown}/>
-          <div className='cursor-pointer absolute left-[220px] top-[2px] hover:text-red-300'>
+          <div className='cursor-pointer absolute left-[218px] top-[2px] hover:text-red-300'>
             <Search />
           </div>
         </div>
