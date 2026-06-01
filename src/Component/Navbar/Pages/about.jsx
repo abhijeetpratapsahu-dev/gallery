@@ -8,11 +8,11 @@ const Home = () => {
       <House className='absolute left-2 bottom-140.5 cursor-pointer  hover:text-blue-300' onClick={function(){
           window.location.href = "/"
       }}/>
-      <img className='h-40 w-110 relative left-112 top-10' src={abc}/>
+      <img className='h-40 w-110 rounded-2xl relative left-112 top-10' src={abc}/>
       <div>
       <img className='h-80 w-75 relative left-60 top-20' src={img9}/>
       </div>
-      <div className="h-auto w-180 bg-white border-2 border-black text-black font-medium shadow-2xl shadow-white/30 p-8 leading-7 rounded-lg relative left-150 bottom-55">
+      <div className="h-auto w-180 bg-white font-bold border-2 border-black text-black  shadow-2xl shadow-white/30 p-8 leading-7 rounded-lg relative left-150 bottom-55">
       <h1 className="text-justify">
        इंजीनियर अविनाश साहू अपना दल (एस) के एक बेहद ऊर्जावान, 
        पढ़े-लिखे और समर्पित युवा नेता हैं, 
