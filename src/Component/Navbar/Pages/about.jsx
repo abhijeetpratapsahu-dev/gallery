@@ -4,7 +4,7 @@ import img9 from '../../../assets/img9.jpg'
 
 const Home = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-white text-black">
       <House className='absolute left-2 bottom-140.5 cursor-pointer  hover:text-blue-300' onClick={function(){
           window.location.href = "/"
       }}/>
