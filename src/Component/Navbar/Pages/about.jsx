@@ -12,7 +12,7 @@ const Home = () => {
       <div>
       <img className='h-80 w-75 relative left-60 top-20' src={img9}/>
       </div>
-      <div className="h-auto w-180 bg-black text-white font-medium shadow-2xl shadow-white/30 p-8 leading-7 rounded-lg relative left-150 bottom-55">
+      <div className="h-auto w-180 bg-white border-2 border-black text-black font-medium shadow-2xl shadow-white/30 p-8 leading-7 rounded-lg relative left-150 bottom-55">
       <h1 className="text-justify">
        इंजीनियर अविनाश साहू अपना दल (एस) के एक बेहद ऊर्जावान, 
        पढ़े-लिखे और समर्पित युवा नेता हैं, 
