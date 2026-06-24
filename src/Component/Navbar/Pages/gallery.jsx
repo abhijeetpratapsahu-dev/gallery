@@ -13,7 +13,7 @@ import img10 from '../../../assets/img10.jpg'
 
 const gallery = () => {
   return (
-      <div className='py-7 flex gap-2 flex-wrap justify-center absolute top-22'>
+      <div className='py-7 flex gap-2 flex-wrap justify-center absolute top-[15vh]'>
       <img className='h-60 w-64 object-cover cursor-pointer rounded-lg hover-scale-90' src={img1} />
       <img className='h-60 w-64 object-cover cursor-pointer rounded-lg hover-scale-90' src={img2} />
       <img className='h-60 w-64 object-cover cursor-pointer rounded-lg hover-scale-90' src={img3} />
