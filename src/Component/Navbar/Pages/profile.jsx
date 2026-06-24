@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className='bg-black min-h-screen text-white relative'>
+    <div className='bg-white min-h-screen text-black relative'>
       <img className='h-40 w-40 rounded-full aspect-square object-cover absolute left-141 bottom-105' src={profile}></img>
 
       <House className='absolute left-2  bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
