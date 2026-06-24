@@ -31,7 +31,7 @@ const gallery = () => {
       }}/>
 
       <div>
-        <h1 className='text-3xl font-semibold absolute bottom-138 left-152'>GALLERY</h1>
+        <h1 className='text-3xl font-semibold absolute bottom-136 left-154'>GALLERY</h1>
       </div>
     </div>
   )
