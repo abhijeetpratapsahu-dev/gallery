@@ -13,17 +13,17 @@ import img10 from '../../../assets/img10.jpg'
 
 const gallery = () => {
   return (
-      <div className='py-7 flex gap-4 flex-wrap justify-center absolute top-28'>
-      <img className='h-64 w-64 object-cover cursor-pointer hover-scale-90' src={img1} />
-      <img className='h-64 w-64 object-cover cursor-pointer hover-scale-90' src={img2} />
-      <img className='h-64 w-64 object-cover cursor-pointer hover-scale-90' src={img3} />
-      <img className='h-64 w-64 object-cover cursor-pointer hover-scale-90' src={img4} />
-      <img className='h-64 w-64 object-cover cursor-pointer hover-scale-90' src={img5} />
-      <img className='h-50 w-64 object-cover cursor-pointer hover-scale-90' src={img6} />
-      <img className='h-50 w-64 object-cover cursor-pointer hover-scale-90' src={img7} />
-      <img className='h-50 w-64 object-cover cursor-pointer hover-scale-90' src={img8} />
-      <img className='h-50 w-64 object-cover cursor-pointer hover-scale-90' src={img9} />
-      <img className='h-50 w-64 object-cover cursor-pointer hover-scale-90' src={img10} />
+      <div className='py-7 flex gap-2 flex-wrap justify-center absolute top-28'>
+      <img className='h-64 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img1} />
+      <img className='h-64 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img2} />
+      <img className='h-64 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img3} />
+      <img className='h-64 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img4} />
+      <img className='h-64 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img5} />
+      <img className='h-50 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img6} />
+      <img className='h-50 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img7} />
+      <img className='h-50 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img8} />
+      <img className='h-50 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img9} />
+      <img className='h-50 w-64 object-cover cursor-pointer rounded hover-scale-90' src={img10} />
 
 
       <House className='absolute left-2 bottom-140.5 cursor-pointer hover:text-blue-300' onClick={function(){
