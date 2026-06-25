@@ -4,14 +4,14 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className='bg-white min-h-screen text-black relative'>
-      <img className='h-40 w-40 rounded-full aspect-square object-cover flex center' src={profile}></img>
+    <div className='bg-white min-h-full text-black relative'>
+      <img className='h-40 w-40 rounded-full aspect-square object-cover center' src={profile}></img>
 
       <House className='absolute left-2  bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
           window.location.href = "/"
       }}/>
 
-      <div className='h-auto w-[225 vw] border-2 border-black p-8 leading-7 rounded-lg absolute left-7 bottom-55'> 
+      <div className='h-auto w-[225 vw] border-2 border-black p-6 leading-7 rounded-lg absolute left-[5vw] bottom-[55vh]'> 
         <h1 className='text-justify'>
           इंजीनियर अविनाश साहू एक युवा और ऊर्जावान नेता हैं, 
           जो वर्तमान में अपना दल के मध्य प्रदेश अध्यक्ष के रूप में कार्य कर रहे हैं। 
@@ -31,7 +31,7 @@ const Home = () => {
           जनता के प्रति उनका समर्पण और सेवा भावना उन्हें अन्य नेताओं से अलग पहचान दिलाती है।
         </h1>
       </div>
-      <div className='absolute left-4 bottom-35 pr-3'>
+      <div className='absolute left-4 border-2 border-black bottom-35 pr-3'>
           <a href='https://www.facebook.com/dravinashsahu/' target="_blank"  rel="noopener noreferrer" className='hover:text-blue-900'>
           <FaFacebookF size={30} />
         </a>
