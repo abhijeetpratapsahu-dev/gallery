@@ -11,7 +11,7 @@ const Home = () => {
           window.location.href = "/"
       }}/>
 
-      <div className='h-auto w-[200vw] border-2 border-black p-6 leading-7 rounded-lg absolute left-[2vw] bottom-[25vh]'> 
+      <div className='h-auto w-[270vw] border-2 border-black p-6 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
         <h1 className='text-justify'>
           इंजीनियर अविनाश साहू एक युवा और ऊर्जावान नेता हैं, 
           जो वर्तमान में अपना दल के मध्य प्रदेश अध्यक्ष के रूप में कार्य कर रहे हैं। 
@@ -31,7 +31,7 @@ const Home = () => {
           जनता के प्रति उनका समर्पण और सेवा भावना उन्हें अन्य नेताओं से अलग पहचान दिलाती है।
         </h1>
       </div>
-      <div className='absolute left-4 border-2 border-black bottom-35 pr-3'>
+      <div className='absolute left-4 bottom-[35vh] border-2 border-black p-3'>
           <a href='https://www.facebook.com/dravinashsahu/' target="_blank"  rel="noopener noreferrer" className='hover:text-blue-900'>
           <FaFacebookF size={30} />
         </a>
