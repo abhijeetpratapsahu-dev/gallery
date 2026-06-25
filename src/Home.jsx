@@ -4,13 +4,13 @@ import Iq from './Component/Navbar/Img/img'
 
 const Home = () => {
   return (
-    <>
+    <div className='bg-white min-h-full min-w-full text-black relative'>
       <Bann />
-      <div className='w-full max-w-7xl mx-auto p-4 flex flex-col md:flex-row gap-6 items-start'>
+      <div className='w-full h-full max-w-7xl mx-auto p-4 flex flex-col md:flex-row gap-6 items-start'>
         <Left />
         <Iq />
       </div>
-    </>
+    </div>
   )
 }
 
