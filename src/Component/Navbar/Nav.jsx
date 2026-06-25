@@ -25,8 +25,8 @@ const Nav = () => {
           <Link to="/profile" className='font-roboto hover:text-green-600 font-bold'>ER.AVINASH SAHU PROFILE</Link>
         </div>
 
-        <div className="absolute left-276 top-0">
-          <input className="w-50 px-1 border border-black" type="search" placeholder="Search" onChange={(e) => setSearch(e.target.value)} onKeyDown={handleKeyDown}/>
+        <div className="absolute left-276 top-1">
+          <input className="w-50 px-1 border-b border-black" type="search" placeholder="Search" onChange={(e) => setSearch(e.target.value)} onKeyDown={handleKeyDown}/>
           <div className='cursor-pointer absolute left-[210px] top-[2px] hover:text-red-500'>
             <Search />
           </div>
