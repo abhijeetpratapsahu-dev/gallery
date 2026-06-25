@@ -4,7 +4,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className='bg-white min-h-full text-black relative'>
+    <div className='bg-white min-h-full min-w-full text-black relative'>
       <img className='h-40 w-40 rounded-full aspect-square object-cover flex justify-center items-center' src={profile}></img>
 
       <House className='absolute left-2 bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
@@ -31,7 +31,7 @@ const Home = () => {
           जनता के प्रति उनका समर्पण और सेवा भावना उन्हें अन्य नेताओं से अलग पहचान दिलाती है।
         </h1>
       </div>
-      <div className='absolute left-4 top-[105vh] border-2 border-black p-3 rounded'>
+      <div className='absolute left-4 top-[15vh] border-2 border-black p-3 rounded'>
           <a href='https://www.facebook.com/dravinashsahu/' target="_blank"  rel="noopener noreferrer" className='hover:text-blue-900'>
           <FaFacebookF size={30} />
         </a>
