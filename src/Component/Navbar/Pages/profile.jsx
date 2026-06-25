@@ -7,12 +7,12 @@ const Home = () => {
     <div className='bg-white min-h-full text-black relative'>
       <img className='h-40 w-40 rounded-full aspect-square object-cover flex justify-center items-center' src={profile}></img>
 
-      <House className='absolute left-2  bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
+      <House className='absolute left-2 bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
           window.location.href = "/"
       }}/>
 
-      <div className='h-auto w-[180vw] border-2 border-black p-6 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
-        <h1 className='text-justify'>
+      <div className='h-auto w-[180vw] border-2 border-black p-4 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
+        <h1 className='text-justify w-full'>
           इंजीनियर अविनाश साहू एक युवा और ऊर्जावान नेता हैं, 
           जो वर्तमान में अपना दल के मध्य प्रदेश अध्यक्ष के रूप में कार्य कर रहे हैं। 
           वे समाज सेवा, युवाओं के विकास और क्षेत्र की समस्याओं को दूर करने के लिए लगातार प्रयास करते रहते हैं। 
