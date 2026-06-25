@@ -5,13 +5,14 @@ import { FaFacebookF } from "react-icons/fa";
 const Home = () => {
   return (
     <div className='bg-white min-h-full min-w-full text-black relative'>
+      <div classNmame='w-full h-full'>
       <img className='h-40 w-40 rounded-full aspect-square object-cover flex justify-center items-center' src={profile}></img>
 
       <House className='absolute left-2 bottom-150 cursor-pointer hover:text-blue-300' onClick={function(){
           window.location.href = "/"
       }}/>
 
-      <div className='h-auto w-[83vw] border-2 border-black p-4 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
+      <div className='h-auto w-[83vw] border-2 border-black p-4 leading-7 font-bold font-sans rounded-lg absolute left-[2vw] bottom-[35vh]'> 
         <h1 className='text-justify w-full'>
           इंजीनियर अविनाश साहू एक युवा और ऊर्जावान नेता हैं, 
           जो वर्तमान में अपना दल के मध्य प्रदेश अध्यक्ष के रूप में कार्य कर रहे हैं। 
@@ -36,6 +37,7 @@ const Home = () => {
           <FaFacebookF size={30} />
         </a>
       </div>
+    </div>
     </div>
   )
 }
