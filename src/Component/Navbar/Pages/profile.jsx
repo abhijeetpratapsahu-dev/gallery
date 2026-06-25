@@ -11,7 +11,7 @@ const Home = () => {
           window.location.href = "/"
       }}/>
 
-      <div className='h-auto w-[10vw] border-2 border-black p-4 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
+      <div className='h-auto w-[7vw] border-2 border-black p-4 leading-7 rounded-lg absolute left-[2vw] bottom-[35vh]'> 
         <h1 className='text-justify w-full'>
           इंजीनियर अविनाश साहू एक युवा और ऊर्जावान नेता हैं, 
           जो वर्तमान में अपना दल के मध्य प्रदेश अध्यक्ष के रूप में कार्य कर रहे हैं। 
