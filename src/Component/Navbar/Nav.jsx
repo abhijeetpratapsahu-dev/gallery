@@ -13,7 +13,7 @@ const Nav = () => {
   };
   return (
     <div>
-      <nav className='p-2 border-b border-black'>
+      <nav className='p-2 border-b border-black w-full'>
         <div className='flex gap-8 cursor-pointer'>
           <Link to="/about" className='font-roboto hover:text-green-600 font-bold'>ABOUT ER.AVINASH SAHU</Link>
           <Link to="/gallery" className='font-roboto hover:text-green-600 font-bold'>GALLERY</Link>
